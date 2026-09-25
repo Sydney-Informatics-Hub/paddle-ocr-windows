@@ -1,7 +1,7 @@
 [project]
 name = "microbiome-ocr"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python wrapper around PaddleOCR"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
