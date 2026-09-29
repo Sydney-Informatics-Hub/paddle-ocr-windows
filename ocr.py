@@ -40,7 +40,8 @@ def main():
         exit(-1)
     ocr = PaddleOCR(
         use_doc_unwarping=True,
-        use_textline_orientation=True
+        use_textline_orientation=True,
+        enable_mkldnn=False
     )
     for pdf in args.input.glob("*.pdf"):
         convert_pdf(ocr, pdf, args.output)
