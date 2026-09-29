@@ -3,7 +3,7 @@ name = "microbiome-ocr"
 version = "0.1.0"
 description = "Python wrapper around PaddleOCR"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = "==3.13"
 dependencies = [
     "paddleocr>=3.7.0",
     "paddlepaddle>=3.3.1",

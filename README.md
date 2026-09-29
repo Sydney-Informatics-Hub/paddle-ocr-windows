@@ -1,1 +1,7 @@
-# paddle-ocr-windows
+# PaddleOCR
+
+## Installation
+
+[Install uv](https://docs.astral.sh/uv/getting-started/installation/)
+
+
